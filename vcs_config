@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host docker-node01
+    HostName <IP_ADDR of Your Instance>
+    User <YOUR USER_ID>
+    IdentityFile <PATH_OF_YOUR_PEM_FILE>
